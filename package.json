@@ -1,0 +1,49 @@
+{
+  "name": "template-typescript",
+  "version": "1.0.0",
+  "description": "Typescript template",
+  "main": "dist/index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "lint": "eslint --ext .ts src",
+    "test": "jest",
+    "test:smoke": "node dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tlvince/template-typescript.git"
+  },
+  "keywords": [
+    "template"
+  ],
+  "author": "Tom Vincent <git@tlvince.com> (https://tlvince.com)",
+  "bugs": {
+    "url": "https://github.com/tlvince/template-typescript/issues"
+  },
+  "homepage": "https://github.com/tlvince/template-typescript#readme",
+  "files": [
+    "dist/"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/core": "7.6.4",
+    "@babel/plugin-transform-regenerator": "7.4.5",
+    "@babel/plugin-transform-runtime": "7.6.2",
+    "@babel/preset-env": "7.6.3",
+    "@babel/preset-typescript": "7.6.0",
+    "@babel/runtime": "7.6.3",
+    "@commitlint/config-conventional": "8.2.0",
+    "@types/jest": "24.0.21",
+    "@types/node": "12.12.3",
+    "babel-jest": "24.9.0",
+    "commitlint": "8.2.0",
+    "eslint": "6.6.0",
+    "eslint-config-tlvince": "2.0.1",
+    "husky": "3.0.9",
+    "jest": "24.9.0",
+    "lint-staged": "9.4.2",
+    "prettier": "1.18.2",
+    "typescript": "3.6.4"
+  }
+}
