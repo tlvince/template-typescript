@@ -26,6 +26,6 @@
 - [ ] My code follows the code style of this project
 - [ ] I have pinned all new external dependencies to an exact version
 - [ ] I have updated the documentation where necessary
-- [ ] I have read the [CONTRIBUTING](CONTRIBUTING.md) document
+- [ ] I have read the [CONTRIBUTING](../CONTRIBUTING.md) document
 - [ ] I have added tests to cover my changes
 - [ ] All new and existing tests pass
