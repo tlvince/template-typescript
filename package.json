@@ -26,9 +26,9 @@
     "dist/"
   ],
   "engines": {
-    "npm": "6.12.1",
-    "node": "12.13.0",
-    "yarn": "1.19.1"
+    "npm": ">=6.12",
+    "node": ">=10",
+    "yarn": ">=1.19"
   },
   "dependencies": {},
   "devDependencies": {
