@@ -8,7 +8,7 @@
     "build": "tsc",
     "lint": "eslint --ext .ts src",
     "test": "jest",
-    "test:smoke": "node dist/index.js"
+    "test:smoke": "node -e \"console.log(require('./dist').greet())\""
   },
   "repository": {
     "type": "git",
@@ -25,6 +25,11 @@
   "files": [
     "dist/"
   ],
+  "engines": {
+    "npm": "6.12.1",
+    "node": "12.13.0",
+    "yarn": "1.19.1"
+  },
   "dependencies": {},
   "devDependencies": {
     "@babel/core": "7.6.4",
