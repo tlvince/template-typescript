@@ -8,7 +8,7 @@ In lieu of formal guideline for this project, please familiarise yourself with t
 - [necolas/issue-guidelines][]
 - Tim Pope's [Git commit message model][tpope]
 
-Also note, this project is released with a [Contributor Code of Conduct][code-of-conduct]. By participating in this project you agree to abide by its terms.
+Also note, this project is released with a [Contributor Code of Conduct](./CODE_OF_CONDUCT.md). By participating in this project you agree to abide by its terms.
 
 In brief, for issues:
 
