@@ -6,7 +6,7 @@
 
 Click the "Use this template" button:
 
-![GitHub screenshot focussing on the template button](https://help.github.com/assets/images/help/repository/use-this-template-button.pngopt)
+![GitHub screenshot focussing on the template button](https://help.github.com/assets/images/help/repository/use-this-template-button.png)
 
 See [Creating a repository from a template][docs] for more.
 
