@@ -1,7 +1,7 @@
 {
   "name": "template-typescript",
   "version": "1.0.0",
-  "description": "Typescript template",
+  "description": "TypeScript template",
   "main": "dist/index.js",
   "license": "MIT",
   "scripts": {
