@@ -1,5 +1,5 @@
 {
-  "name": "@tlvince/template-typescript",
+  "name": "template-typescript",
   "version": "1.0.0",
   "description": "TypeScript template",
   "main": "dist/index.js",
