@@ -10,6 +10,11 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v1
 
+      - name: Setup Node.js
+        uses: actions/setup-node@v1
+        with:
+          node-version: 12
+
       - name: NPM or Yarn install with caching
         uses: bahmutov/npm-install@v1.1.0
 
@@ -40,6 +45,7 @@ jobs:
 
       - name: Setup Node.js with GitHub Package Registry
         uses: actions/setup-node@v1
+        if: steps.semantic.outputs.new_release_published == 'true'
         with:
           node-version: 12
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
