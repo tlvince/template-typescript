@@ -6,7 +6,10 @@
   "license": "MIT",
   "scripts": {
     "build": "tsc",
-    "lint": "eslint --ext .ts src",
+    "lint": "yarn eslint && yarn prettier --check",
+    "lint:fix": "yarn eslint --fix && yarn prettier --write",
+    "eslint": "eslint '**/*.{js,jsx,ts,tsx,json}'",
+    "prettier": "prettier '**/*.{js,jsx,ts,tsx,json,css,md}'",
     "test": "jest",
     "test:smoke": "node -e \"console.log(require('./dist').greet())\""
   },
