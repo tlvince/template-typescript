@@ -28,6 +28,8 @@ npx degit tlvince/template-typescript <project-name>
 5. Update the `test:smoke` script in [package.json](package.json)
 6. Create a npm token (`npm token create`), set it in the GitHub repo secrets (as `NPM_TOKEN`)
 7. Push
+8. Grant repo access to [Dependabot](https://github.com/settings/installations/2625878)
+9. Enable branch protection on `master`
 
 ## Author
 
