@@ -1,6 +1,13 @@
 name: Pull Requests
 on: pull_request
 jobs:
+  lint:
+    runs-on: ubuntu-latest
+    env:
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    steps:
+      - uses: actions/checkout@v1
+      - uses: wagoid/commitlint-github-action@v1.2.2
   build-and-test:
     runs-on: ubuntu-latest
     steps:
