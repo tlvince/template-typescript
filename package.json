@@ -11,6 +11,7 @@
     "eslint": "eslint '**/*.{js,jsx,ts,tsx,json}'",
     "prettier": "prettier '**/*.{js,jsx,ts,tsx,json,css,md}'",
     "test": "jest",
+    "test:debug": "node --inspect-brk ./node_modules/.bin/jest --runInBand",
     "test:smoke": "node -e \"console.log(require('./dist').greet())\""
   },
   "repository": {
