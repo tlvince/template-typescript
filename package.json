@@ -2,37 +2,32 @@
   "name": "template-typescript",
   "version": "1.0.0",
   "description": "TypeScript template",
-  "main": "dist/index.js",
-  "license": "MIT",
-  "scripts": {
-    "build": "tsc",
-    "lint": "yarn eslint && yarn prettier --check",
-    "lint:fix": "yarn eslint --fix && yarn prettier --write",
-    "eslint": "eslint '**/*.{js,jsx,ts,tsx,json}'",
-    "prettier": "prettier '**/*.{js,jsx,ts,tsx,json,css,md}'",
-    "test": "jest",
-    "test:debug": "node --inspect-brk ./node_modules/.bin/jest --runInBand",
-    "test:smoke": "node -e \"console.log(require('./dist').greet())\""
+  "keywords": [
+    "template"
+  ],
+  "homepage": "https://github.com/tlvince/template-typescript#readme",
+  "bugs": {
+    "url": "https://github.com/tlvince/template-typescript/issues"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/tlvince/template-typescript.git"
   },
-  "keywords": [
-    "template"
-  ],
+  "license": "MIT",
   "author": "Tom Vincent <git@tlvince.com> (https://tlvince.com)",
-  "bugs": {
-    "url": "https://github.com/tlvince/template-typescript/issues"
-  },
-  "homepage": "https://github.com/tlvince/template-typescript#readme",
+  "main": "dist/index.js",
   "files": [
     "dist/"
   ],
-  "engines": {
-    "npm": ">=6.14",
-    "node": ">=12",
-    "yarn": ">=1.22 <2"
+  "scripts": {
+    "build": "tsc",
+    "eslint": "eslint '**/*.{js,jsx,ts,tsx,json}'",
+    "lint": "yarn eslint && yarn prettier --check",
+    "lint:fix": "yarn eslint --fix && yarn prettier --write",
+    "prettier": "prettier '**/*.{js,jsx,ts,tsx,json,css,md}'",
+    "test": "jest",
+    "test:debug": "node --inspect-brk ./node_modules/.bin/jest --runInBand",
+    "test:smoke": "node -e \"console.log(require('./dist').greet())\""
   },
   "dependencies": {},
   "devDependencies": {
@@ -53,6 +48,12 @@
     "jest": "26.6.3",
     "lint-staged": "10.5.2",
     "prettier": "2.2.0",
+    "sort-package-json": "1.48.0",
     "typescript": "4.1.2"
+  },
+  "engines": {
+    "node": ">=12",
+    "npm": ">=6.14",
+    "yarn": ">=1.22 <2"
   }
 }
