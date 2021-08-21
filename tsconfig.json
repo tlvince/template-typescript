@@ -1,11 +1,8 @@
 {
+  "extends": "@tsconfig/node14/tsconfig.json",
   "compilerOptions": {
-    "moduleResolution": "node",
-    "module": "commonjs",
     "rootDir": "src",
-    "outDir": "dist",
-    "target": "es2018",
-    "esModuleInterop": true
+    "outDir": "dist"
   },
   "exclude": ["dist/", "node_modules/", "src/**/*.test.ts"]
 }
